@@ -24,7 +24,6 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mAutor: Senhor-Loock\e
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mEdited by:0x0a λ\e[0m\n"
 
-cowsay -f eyes "Hacking" | lolcat
 figlet -f slant "FERRAMENTAS" | lolcat
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mlocalhost [H]:" 
@@ -32,7 +31,7 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mlocalhost [H]:"
 
 clear
 
-cowsay -f eyes "Hacking" | lolcat
+
 figlet -f slant "FERRAMENTAS" | lolcat
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mport [P]:\e[0m\n" 
@@ -40,7 +39,6 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mport [P]:\e[0m\n"
 
 clear
 
-cowsay -f eyes "Hacking" | lolcat
 figlet -f slant "FERRAMENTAS" | lolcat
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mNome do apk:Exemplo paylaod.apk:\e[0m\n" 
@@ -48,7 +46,6 @@ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mNome do apk:Exemplo p
 
 clear
 
-cowsay -f eyes "Hacking" | lolcat
 figlet -f slant "FERRAMENTAS" | lolcat
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93mCriando $name\e[0m\n"
