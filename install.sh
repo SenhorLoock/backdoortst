@@ -10,9 +10,7 @@ rm -rf install.sh
 
 clear
 
-cowsay -f eyes "Hacking" | lolcat
-figlet -f slant "FERRAMENTAS" | lolcat
-
-    echo "Execulte o backdoortst.sh"
+figlet -f slant "Concluido" | lolcat
+printf '\033[1;32m[\033[1;34m*\033[1;32m]\033[mAutor\033[1;32m:\033[7;36mSenhorLoock\033[m'
 
 
